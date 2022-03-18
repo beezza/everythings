@@ -13,6 +13,6 @@ module.exports = {
         post : function (url) {
             return new RequestClass().post(url)
         },
-        server : new ServerClass().app
-    }
+    },
+    server : new ServerClass().app
 }
