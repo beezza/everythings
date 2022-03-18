@@ -1,5 +1,6 @@
 /*Load Classes*/
 const RequestClass = require("./class/request").Request
+const ServerClass = require("./class/server").Server
 
 /*- - - - - -*/
 
@@ -11,6 +12,7 @@ module.exports = {
         },
         post : function (url) {
             return new RequestClass().post(url)
-        }
+        },
+        server : new ServerClass().app
     }
 }

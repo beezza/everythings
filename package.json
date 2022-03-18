@@ -6,6 +6,7 @@
   "author": "beezza <beezza@beezza.net>",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.17.3",
     "sync-request": "^6.1.0"
   }
 }
