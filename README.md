@@ -14,9 +14,11 @@ $ yarn add everythings
 const everythings = require("everythings")
 
 
-everythings.server.get("/", (req, res) => {
+const server = everythings.server()
+
+server.get("/", (req, res) => {
     res.send("Hello, World")
 })
 
-everythings.server.listen(3030)
+server.listen(3030)
 ```
