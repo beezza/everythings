@@ -22,3 +22,11 @@ server.get("/", (req, res) => {
 
 server.listen(3030)
 ```
+# 2.Request
+```javascript
+const everythings = require("everythings")
+
+
+const res = everythings.requests.get("https://www.beezza.net")
+console.log(res)
+```
